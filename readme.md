@@ -2,17 +2,24 @@
 
 ## Objective
 
-Investigate the performance of optimal decision trees using Allstate kaggle dataset.
+Review the performance of optimal decision trees by comparing this method with alternatives (GLM and XGBoost).
 
 ## Contents
 This repository contains:
 
-- *data.py* - loads in train and test datasets
+- *data* - datasets for the analysis
+- *evaluation* - summary statistics
+- *glm* - code to build model 
+- *img* - images
+- *notebooks* - workings for learning and development
+- *optimal_decision_trees* - code to build model
+- *outputs* - results
+- *xgb* - code to build model
 
 ## Future Developments
 Developments to investigate / consider:
 
-- response variable transformations (e.g. tukeys outliers, box-cox)
+- additional feature engineering steps, e.g. frequency binning
 
 ## Author
 Ben Turner with a special thanks to interpretable.ai for allowing me to trial their interpretableai package for personal use.
