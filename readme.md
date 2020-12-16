@@ -20,6 +20,7 @@ This repository contains:
 Developments to investigate / consider:
 
 - additional feature engineering steps, e.g. frequency binning
+- modularise code away from notebooks
 
 ## Author
 Ben Turner with a special thanks to interpretable.ai for allowing me to trial their interpretableai package for personal use.
