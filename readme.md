@@ -77,5 +77,6 @@ Developments to improve study:
 - build XGBoost model on AWS GPU machine
 
 ## Author
-Ben Turner with a special thanks to interpretable.ai for allowing me to trial their interpretableai package for personal use.
+Ben Turner with a special thanks to interpretable.ai for allowing me to trial their interpretableai package for personal use. <br>
+
 Q4 2020
