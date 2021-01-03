@@ -66,6 +66,12 @@ For reference, the winning kaggle competition (stacked NN and XGB model) has has
 
 ![optimal_decision_trees](img/gini.png)
 
+## Conclusions
+
+- ODT significantly outperforms GLM.
+- XGB is the most accurate model and reasonably efficient given the time and computation taken to train (c. 3 hours).
+- ODT takes considerably longer to tune (c. 6 hours) and is considerably more complex to install.
+- Although ODT does not perform as well as XGB, there is a considerable value to the level interpretability which it provides. With this functionality, an interpretability based proposition is plausible which could be useful for certain product lines / brands.
 
 ## Future Developments
 
