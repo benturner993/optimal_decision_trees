@@ -2,7 +2,7 @@
 
 ## Objective
 
-To investigate the performance of GLM, Optimal Decision Trees and XGBoost algorithms on the Allstate Claims Severity Kaggle challenge.
+To investigate the performance of GLM, Optimal Decision Trees and XGBoost algorithms on the Allstate Claims Severity Kaggle challenge (https://www.kaggle.com/c/allstate-claims-severity/overview).
 
 ## Contents
 
@@ -10,7 +10,7 @@ This repository contains:
 
 - *data* - datasets for the analysis
 - *evaluation* - summary statistics
-- *glm* - code to build model 
+- *glm* - code to build model
 - *img* - images
 - *notebooks* - workings for learning and development
 - *optimal_decision_trees* - code to build model
@@ -47,13 +47,12 @@ Build three models:
 ## Results
 
 #### Mean Absolute Error:
+For reference, the winning kaggle competition (stacked NN and XGB model) has has a MAE of 1109.71.
 
 - GLM mae result:  1605.18 (2dp)
 - GLM kaggle mae result: 1604.37 (2dp)
-
 - ODT mae result:  1298.60 (2dp)
 - ODT kaggle mae result: 1291.27 (2dp)
-
 - XGB mae result:  1191.18 (2dp)
 - XGB kaggle mae result: 1189.11 (2dp)
 
@@ -75,7 +74,7 @@ Developments to improve study:
 - additional feature engineering
 - modularise code and add orchestration file
 - alter ODT code such that it is written in Julia in order to allow for multi-threading
-- Build XGBoost model on AWS GPU machine
+- build XGBoost model on AWS GPU machine
 
 ## Author
 Ben Turner with a special thanks to interpretable.ai for allowing me to trial their interpretableai package for personal use.
