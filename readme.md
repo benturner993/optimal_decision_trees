@@ -19,9 +19,24 @@ This repository contains:
 
 ## Data
 
-Segmentation of data
-Data Feature engineering
-n rows in dataset
+Each row in this dataset represents an insurance claim. Variables prefaced with 'cat' are categorical, while those prefaced with 'cont' are continuous. The objective is to predict the value for the 'loss' column. <br>
+
+The challenge is provided in such a way that there train and test datasets. 
+
+The train dataset has been partitioned such that: 
+
+- modelling
+- holdout
+
+The test dataset is used for independent scoring on Kaggle.
+
+For example:
+
+![optimal_decision_trees](img/data_preview.png)
+
+## Feature Engineering
+
+Basic feature engineering was used amongst all models including response transformation and frequency binning.
 
 ## Method
 
